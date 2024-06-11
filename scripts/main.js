@@ -15,3 +15,39 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+//  Initialize Swiper
+// let swiper = new Swiper(".mySwiper", {
+//     pagination: {
+//       el: ".swiper-pagination",
+//     },
+//   });
+
+const swiper = new Swiper('.swiper', {
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    speed: 400,
+    spaceBetween: 100,
+    autoplay: {
+        delay: 5000,
+    },
+    slidesPerView: 1,
+    breakpoints: {
+        320: {
+            spaceBetween: 20
+        },
+        480: {
+            spaceBetween: 30
+        },
+        640: {
+            slidesPerView: 1,
+            spaceBetween: 40
+        }
+    }
+});

@@ -30,16 +30,18 @@ img {
   max-width: 1280px;
   margin: 0 auto;
 }
-.btn {
+button{
   padding: 1rem 1.5rem;
-  background: #078d84;
-  color: #fff;
-  border: 1px solid transparent;
-  border-radius: 0.5rem;
   font-size: 1rem;
-  font-weight: 400;
   line-height: 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 400;
   transition: all 0.3s ease-in-out;
+  }
+  .btn {
+    background: #078d84;
+    color: #fff;
+    border: 1px solid transparent;
 }
 .btn:hover {
   background: #fff;
@@ -48,15 +50,9 @@ img {
   color: #078d84;
 }
 .btn_outline {
-  padding: 1rem 1.5rem;
   background: #fff;
   color: #078d84;
   border: 1px solid #078d84;
-  border-radius: 0.5rem;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5rem;
-  transition: all 0.3s ease-in-out;
 }
 .btn_outline:hover {
   cursor: pointer;
@@ -358,4 +354,44 @@ header {
     font-size: 1rem;
     line-height: 1.5rem;
     font-weight: 400;
+}
+/* Swiper container stylng */
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
+.swiper-slide {
+  text-align: center;
+  /* Center slide text vertically */
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slide_1 {
+  background-color: #643ca3;
+}
+
+.slide_2 {
+  background-color: #e38364;
+}
+
+.slide_3 {
+  background-color: #faf47a;
+}
+
+.slide_4 {
+  background-color: #64e3c1;
+}
+
+.slide_5 {
+  background-color: #9e6ffd;
 }
