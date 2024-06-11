@@ -194,6 +194,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 1rem 2rem;
 }
 .heading_5 {
   font-size: 1.125rem;
@@ -209,16 +210,18 @@ header {
 }
 .companies img {
   width: 100%;
+  display: block;
 }
 .services {
   background: #f6f8ff;
-  padding: 8rem;
+  padding: 6.5rem 0 4rem 0;
 }
 .services_wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 4rem;
+  padding: 1rem 2rem;
 }
 .services_typography {
   display: flex;
@@ -281,4 +284,78 @@ header {
 }
 .card img {
   width: 100%;
+}
+/* about me */
+.about{
+    padding: 6rem 0;
+}
+.about_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6rem;
+    padding: 1rem 2rem;
+}
+.about_img {
+    position: relative;
+    width: 100%;
+}
+.about_img::before,
+.about_img::after {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+
+.about_img::before {
+    background: url('/asstes/images/ellipse1.png') no-repeat center center;
+    top: 0;
+    right: 0;
+    transform: translate(40%, -40%) rotate(12deg);
+    z-index: -111;
+}
+
+.about_img::after {
+    background: url('/asstes/images/ellipse2.png') no-repeat center center;
+    bottom: 0;
+    left: 0;
+    transform: translate(-40%, 40%) rotate(12deg);
+    z-index: -111;
+}
+.about_typography{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+.heading_4{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #1C1C57; 
+}
+.counter_items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3.75rem;
+}
+.count{
+    /* box-shadow: 0px 1px 2px 0px #1018280F; */
+    background: #FDFDFF;
+    text-align: left;
+    box-shadow: 0px 1px 3px 0px #1018281A;
+    padding: .8rem;
+    border-radius: .5rem;
+}
+.project_num{
+    font-weight: 500;
+    font-size: 2.125rem;
+    line-height: 2.7rem;
+    letter-spacing: -0.05125rem;
+    color: #000;
+}
+.project_completed{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
 }
