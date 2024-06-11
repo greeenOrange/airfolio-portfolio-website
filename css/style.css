@@ -184,3 +184,29 @@ header{
 .banner_image{
     width: 100%;
 }
+
+/* After banner before service */
+.services_provided{
+    background:#3E3E70;
+    padding: 5rem 0;
+}
+.services_provided_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.heading_5{
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.68rem;
+    color: #fff;
+}
+.companies{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.companies img{
+    width: 100%;
+}
