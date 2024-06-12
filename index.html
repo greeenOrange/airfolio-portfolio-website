@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>gm sadiq portfolio website</title>
-    
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/d779a7aa9e.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- start header -->
@@ -201,25 +205,48 @@
     <!-- testimonial section     -->
     <section class="testimonial">
       <div class="container">
-        <!-- Slider main container -->
         <div class="swiper">
-          <!-- Additional required wrapper -->
           <div class="swiper-wrapper">
             <!-- Slides -->
-            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">
+                <div class="rating">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="people_para">
+                  Airfolio has been instrumental in showcasing my design
+                  portfolio. Their UIUX design services are top-notch and their
+                  Webflow development has taken my website to the next level.
+                </p>
+                <div class="people_say_about">
+                  <div class="people_img">
+                    <img src="/asstes/images/testimonial.png" alt="people face" srcset="" />
+                  </div>
+                  <div class="people_disc">
+                    <div class="testimonial_info">
+                      <h5 class="people_name">John Doe</h5>
+                    <p class="people_desig">Graphic Designer, ABC Company</p>
+                    </div>
+                    <div class="testimonial_logo">
+                      <img src="/asstes/images/Black.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              
+            </div>
             <div class="swiper-slide">Slide 2</div>
             <div class="swiper-slide">Slide 3</div>
-            ...
           </div>
-          <!-- If we need pagination -->
+          <!-- pagination -->
           <div class="swiper-pagination"></div>
 
-          <!-- If we need navigation buttons -->
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-
-          <!-- If we need scrollbar -->
-          <div class="swiper-scrollbar"></div>
+          <div class="swiper-button-prev">
+            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+          </div>
+          <div class="swiper-button-next"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
         </div>
       </div>
     </section>

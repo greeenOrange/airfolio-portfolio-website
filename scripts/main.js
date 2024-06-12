@@ -32,11 +32,11 @@ const swiper = new Swiper('.swiper', {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
-    speed: 400,
-    spaceBetween: 100,
-    autoplay: {
-        delay: 5000,
-    },
+    // speed: 400,
+    // spaceBetween: 100,
+    // autoplay: {
+    //     delay: 5000,
+    // },
     slidesPerView: 1,
     breakpoints: {
         320: {
