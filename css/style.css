@@ -336,7 +336,6 @@ header {
   gap: 3.75rem;
 }
 .count {
-  /* box-shadow: 0px 1px 2px 0px #1018280F; */
   background: #fdfdff;
   text-align: left;
   box-shadow: 0px 1px 3px 0px #1018281a;
@@ -357,65 +356,31 @@ header {
 }
 /* Swiper container stylng */
 .testimonial {
-  padding: 6rem 0;
+  padding: 6rem 0 2rem 0;
   background: #255bf9;
 }
 .swiper {
+  /* position: relative; */
   max-width: 768px;
   max-height: 300px;
-  position: relative;
+  /* margin: 0 auto; */
 }
-.swiper-wrapper{
+.swiper-wrapper {
   
 }
-
-.swiper-slide {
-  /* text-align: center; */
-  /* Center slide text vertically */
-  /* display: flex !important;
-  align-items: center;
-  justify-content: center; */
-}
-
-/* .swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-} */
-
-/* .slide_1 {
-  background-color: #643ca3;
-}
-
-.slide_2 {
-  background-color: #e38364;
-}
-
-.slide_3 {
-  background-color: #faf47a;
-}
-
-.slide_4 {
-  background-color: #64e3c1;
-}
-
-.slide_5 {
-  background-color: #9e6ffd;
-} */
- .people_para{
+.people_para {
   font-size: 1.25rem;
   line-height: 1.5rem;
   letter-spacing: 0.04rem;
   font-weight: 500;
   color: #fff;
- }
+}
 .rating {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: .2rem;
-  margin-bottom: 1.6rem;
+  gap: 0.2rem;
+  margin-bottom: 2rem;
 }
 .rating .fa-star,
 .fa-star-o {
@@ -424,67 +389,145 @@ header {
   margin: 0 2px;
   cursor: pointer;
 }
-.people_say_about{
+.people_say_about {
   margin: 2rem 0 6rem 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: .5rem;
+  gap: 0.5rem;
 }
-.people_img img{
+.people_img img {
   width: 100%;
   object-fit: fill;
 }
-.people_disc{
+.people_disc {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
 }
-.people_name{
+.people_name {
   font-size: 1rem;
   line-height: 1.5rem;
   color: #fff;
   font-weight: 600;
 }
-.people_desig{
+.people_desig {
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 400;
   color: #fff;
 }
-.testimonial_logo{
+.testimonial_logo {
   display: flex;
   justify-content: center;
 }
-.testimonial_logo img{
+.people_img{
+  display: flex;
+  width: 80px;
+  height: 80px;
+}
+.people_img img{
+  border-radius: 100%;
+}
+.testimonial_logo img {
   width: 100%;
   object-fit: contain;
 }
-.testimonial_logo::before{
-  content: "" ;
+.testimonial_logo::before {
+  content: "";
   border-color: #000;
   border-style: solid;
   border-width: 0 0.15em 4.5em 0;
   margin-right: 1rem;
 }
-.swiper-pagination .swiper-pagination-bullet-active{
+.swiper-pagination 
+.swiper-pagination-bullet-active {
   background: #fff;
 }
-.swiper-pagination .swiper-pagination-bullet{
+.swiper-pagination 
+.swiper-pagination-bullet {
   width: 8px;
   height: 8px;
-  background: #D9D9D9;
+  background: #d9d9d9;
 }
 .swiper-button-prev,
-.swiper-button-next{
-  background: #9DB5FC;
+.swiper-button-next {
+  background: #9db5fc;
   width: 40px;
   height: 40px;
   border-radius: 100%;
-  color: red;
+  color: #fff;
   font-size: 1rem;
 }
-.swiper-button-next:after,.swiper-button-prev:after{
-    content: "";
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  content: "";
+}
+/* .swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+.swiper-button-prev {
+  left: -50px; 
+}
+
+.swiper-button-next {
+  right: -50px;
+} */
+
+/* contact style styling */
+.contact{
+  background: #1C1C57 url('/asstes/images/contact1.png') no-repeat center center;
+  width: 100%;
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  .contact_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.contact_intro{
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  letter-spacing: -0.05125rem;
+  color: #fff;
+}
+.contact_para{
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+.hire_btn {
+  background: #FFFFFF;
+  color: #1C1C57;
+  border: 1px solid transparent;
+}
+.hire_btn:hover {
+  background: #1C1C57;
+  cursor: pointer;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+}
+.hire_btn_outline {
+  background: #1C1C57;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+}
+.hire_btn_outline:hover {
+  cursor: pointer;
+  background: #FFFFFF;
+  color: #1C1C57;
 }

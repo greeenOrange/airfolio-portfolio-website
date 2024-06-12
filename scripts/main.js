@@ -16,12 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-//  Initialize Swiper
-// let swiper = new Swiper(".mySwiper", {
-//     pagination: {
-//       el: ".swiper-pagination",
-//     },
-//   });
 
 const swiper = new Swiper('.swiper', {
     pagination: {
@@ -32,7 +26,7 @@ const swiper = new Swiper('.swiper', {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
-    // speed: 400,
+    // speed: 1500,
     // spaceBetween: 100,
     // autoplay: {
     //     delay: 5000,
