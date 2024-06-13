@@ -88,12 +88,10 @@ header {
   line-height: 1.5rem;
 }
 .menu {
-  list-style: none;
   display: flex;
 }
 .menu li {
   position: relative;
-  gap: 2rem;
 }
 .menu li a {
   color: #1c1c57;
@@ -612,7 +610,6 @@ ul li a {
   font-weight: 400;
   font-size: .8rem;
   line-height: 1.125rem;
-  margin-bottom: 1rem;
 }
 .footer_navbar{
   margin-bottom: 1rem;
