@@ -719,6 +719,52 @@ ul li a {
 .services_provided_wrapper{
   flex-direction: column;
 }
+/* mobile services section */
+.services{
+  padding: 1.5rem 0 1rem 0;
+}
+.services_wrapper{
+  gap: 2rem;
+}
+.services_typography{
+  flex-direction: column;
+}
+.services_items{
+  grid-template-columns: auto;
+  gap: 1rem;
+}
+/* mobile About section */
+.about{
+  padding: 3.5rem 0;
+}
+.about_wrapper{
+  flex-direction: column;
+  }
+.about_description{
+  padding: 1rem 2rem;
+}
+.counter_items{
+  grid-template-columns: auto;
+  gap: 1.75rem;
+}
+.heading_2{
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+.about_img{
+  max-width: 325px;
+}
+.about_img::before{
+  transform: translate(20%, -20%) rotate(12deg);
+}
+.about_img::after{
+  transform: translate(-20%, 20%) rotate(12deg);
+}
+.project_num{
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+  letter-spacing: -0.02025rem;
+}
 /* mobile footer */
   .footer_wrapper {
     display: flex;
