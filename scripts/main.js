@@ -16,6 +16,16 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+// Hamburger Menu
+document.addEventListener("DOMContentLoaded", function () {
+    const hamburger = document.getElementById("hamburger");
+    const navMenu = document.getElementById("mobile_nav_menu");
+
+    hamburger.addEventListener("click", function () {
+        navMenu.classList.toggle("active");
+    });
+});
+
 
 const swiper = new Swiper('.swiper', {
     pagination: {
