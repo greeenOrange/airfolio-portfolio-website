@@ -643,7 +643,30 @@ ul li a {
 .mobile_navbar{
   display:none;
 }
-
+/* Device  Laptops, Desktops */
+@media (min-width: 769px) and (max-width: 1280px) {
+  .footer_contact,
+  .footer_menu_items {
+      grid-column: span 6;
+      max-width: 100%;
+  }
+  .footer_wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer_contact,
+  .footer_menu_items {
+      grid-column: span 12;
+      max-width: 100%;
+  }
+  .footer_nav{
+    grid-template-columns: repeat(2, auto)
+  }
+  .copyright{
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+} 
  /* Device = Tablets, Ipads, Mobile */
 @media (min-width: 320px) and (max-width: 768px) {
   .navbar{
