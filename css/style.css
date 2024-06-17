@@ -644,7 +644,7 @@ ul li a {
   display:none;
 }
 /* Device  Laptops, Desktops */
-@media (min-width: 769px) and (max-width: 1280px) {
+/* @media (min-width: 769px) and (max-width: 1280px) {
   .footer_contact,
   .footer_menu_items {
       grid-column: span 6;
@@ -666,7 +666,7 @@ ul li a {
     flex-direction: column;
     row-gap: 1rem;
   }
-} 
+}  */
  /* Device = Tablets, Ipads, Mobile */
 @media (min-width: 320px) and (max-width: 768px) {
   .navbar{
